@@ -26,7 +26,7 @@ npm install -g npm-windows-upgrade
 cinst -y visualstudiocode
 
 ## Visual Studio 2017
-cinst -y visualstudio2017community
+cinst -y visualstudio2017professional
 if (Test-PendingReboot) { Invoke-Reboot }
 
 ## Ruby, Go, Python
